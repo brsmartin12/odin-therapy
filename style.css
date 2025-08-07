@@ -8,7 +8,7 @@ body {
 
 /* Colors and fonts */
 
-.header-hero-container{
+.header-hero-container, .footer{
     background-color: #1f2937;
 }
 
@@ -159,13 +159,14 @@ a {
 }
 
 .call-to-action {
-    margin: 70px 250px;
+    margin: 70px 400px;
     padding: 20px 50px;
     color: white;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .action-big {
@@ -175,4 +176,11 @@ a {
 
 .call-to-action .sign-up-button {
     border: 2px solid white;
+    min-width: 55px;
+}
+
+.footer {
+    padding: 35px 0px;
+    text-align: center;
+    color: #e5e7eb;
 }

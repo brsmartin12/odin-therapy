@@ -32,7 +32,6 @@ body {
 
 .sign-up-button {
     background-color: #3882f6;
-    display: inline-block;
 }
 
 a {
@@ -42,7 +41,7 @@ a {
 /* -------------------------- */
 
 .header-hero-container {
-    padding: 8px 150px;
+    padding: 8px 250px;
 }
 
 .header {
@@ -66,7 +65,16 @@ a {
 }
 
 .hero-left {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sign-up-button {
@@ -76,8 +84,11 @@ a {
     margin: 15px 0px;
 }
 
-.stress-image {
-    flex: 0 0 auto;
+.therapy-image {
     width: auto;
-    height: 350px;
+    height: 300px;
+}
+
+.hero-left, .hero-right {
+    flex: 1;
 }
